@@ -1,0 +1,39 @@
+/* Common Styles */
+.btn{
+    background-color: #2bc9a0;
+}
+.btn:hover{
+    background-color: #1a8467;
+}
+/* End of Common Styles */
+
+/* First section */
+.navbar-brand,#title-first-section,#title-second-section,#title-third-section,.p{
+    color: #2bc9a0;
+}
+/* End of First section */
+
+/* Second section */
+#second-section,footer{
+    background-color: rgba(90, 240, 200,0.1);
+    
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 .25rem #68ecc9;
+}
+
+#current-age-section,#third-section{
+    display: none;
+}
+/* End of Second section */
+
+/* Media Query */
+@media screen and (max-width:1000px) {
+    #title-first-section{
+        padding-top: 15%;
+    }
+    
+}
+/* End of Media Query */
